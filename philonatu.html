@@ -1,0 +1,154 @@
+<!doctype>
+<html>
+<head>
+    <title>my website</title>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+/*
+            display:flex;
+            align-items: center;
+            justify-content: center;
+*/
+            width:auto
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        header{
+            text-align: center;  
+            border:7px solid azure;
+            height: 240px;
+            margin: 5px;
+        }
+        #logo{
+            position: relative;
+            right:450px;
+            bottom:220px;        
+        }
+        #logo2{
+            position: relative;
+            left:450px;
+            bottom:360px;       
+        }
+        #nameplate{
+            background-color: white;
+        }
+        #name-explain{
+            background-color: azure;
+            padding: 6px;
+        }
+        
+        
+        }
+        #footer { 
+            border-top:3px solid#f4f4f4; text-align:center; padding:2em 0 4em; clear:both;
+            min-height: 80px;
+        }
+        .content{
+            display:flex;
+        }
+        .content nav{
+/*            border-right:1px solid gray;*/
+            background-color: aliceblue;
+            }
+        .content aside{
+/*            border-left:1px solid gray;   */
+            background-color: aliceblue;
+        }
+        nav, aside{
+            flex-basis: 150px;
+            flex-shrink:0;
+        }
+        main{
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="nameplate">
+                <h4>
+                <p>P H I L O N A T U</p>
+                </h4>
+            </div>
+            
+            <div id="name-explain" >
+                
+                <h3>
+                <p>
+                    독립학자 최종덕의 실험적 현대자연철학
+                </p>
+                </h3>
+                <p>
+                    - 자연과학 해석과 생활인문학 - <br><br>
+                    과학과 철학, 동양과 서양, 자연과 문화, 
+                    과거와 미래, 해석과 분석, 감성과 이성 사이의 <br> 입체적 접점을 찾아가는 페이지 
+                </p>
+                
+            </div>
+                <div id="logo">
+                    <img src="images/logo-philonatu.png" height="170" alt="logo"; >
+                </div>
+                <div id="logo2">
+                    <img src="images/logo-nature.png" height="130" alt="logo2"; >
+                </div>
+        </header>
+        <div class="content">
+            <nav>
+                <ul>
+                    <li>생물학 부문</li>
+                    <li>의학 부문</li>
+                    <li>물리학 부문</li>
+                    <li>과학 일반</li>
+                    <li>인지과학</li>
+                    <li>철학 일반</li>
+                    <li>환경 부문</li>
+                    <li>한국학/동양학</li>
+                    <li>사회문화 부문</li>
+                                
+                </ul>
+            </nav>
+            <main>
+                <p>이 자리에 게시판이 들어온다.</p>
+                
+                <p>새로운 언어를 배우면서 먼저 파이썬에서 시작했다. 그러다보니 html이 필요해서 나중에 html tag를 배우니 한결 쉽다.
+                </p>
+                        
+            
+               
+                <h4 > 
+                심층신경망 구조 그리고 신경층의 복잡성
+                </h4>
+               
+            </main>
+            <aside>
+                <ul>
+                    <li>저서</li>
+                    <li>논문/발표문</li>
+                    <li>서평</li>
+                    <li>논평/에세이</li>
+                    <li>그림 명제 </li>
+                    <li>단편 명제 </li>
+                    <li>묘사 </li>
+                    
+                </ul>
+            </aside>
+            
+        </div>
+        
+        <div id="footer">
+            philonatu@gmail.com   "테스트문구홈페이지888"  <br>  
+            <a href="http://philonatu.com">최종덕의 현대자연철학 아카이브</a>
+        </div>
+        
+        
+    </div>
+</body>
+</html>
